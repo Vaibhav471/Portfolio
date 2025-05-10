@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+#home {
+    background: #f79d9da8;
+}
+
+#about, #projects, #contact {
+    background: #ddd;
+}
+
+img{
+    border-radius: 100%;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+}
